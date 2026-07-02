@@ -1,4 +1,10 @@
  :root { --bg-primary: #0a0a0f; --text-primary: #f5f5f7; --text-muted: #a1a1aa; --accent-purple: #8b5cf6; --glass-bg: rgba(255,255,255,0.03); --glass-border: rgba(255,255,255,0.08); }
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 .navbar{
     display:flex;
     justify-content:space-between;
