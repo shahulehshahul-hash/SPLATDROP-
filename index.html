@@ -4,100 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPLATDROP</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>SPLATDROP</h1>
+    <nav class="navbar">
+        <div class="logo">SPLATDROP</div>
+        <button class="launch-btn">
+            Launch App
+        </button>
+    </nav>
 
-    <p>Turn videos into interactive 3D models.</p>
+    <section class="hero">
+      <div class="hero__bg-glow"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">REAL WORLD. REAL SIMPLE. REAL 3D.</h1>
+        <p class="hero__subtitle">
+          SplatDrop turns ordinary video into production-ready 3D models —
+          no scanners, no CAD, no manual reconstruction. Upload a video, get a 3D asset.
+        </p>
+        <a href="#upload" class="hero__cta">Start Scanning</a>
+      </div>
+    </section>
 
-    <button>Start Scanning</button>
+    <section class="preview">
+      <div class="preview__container">
+        <div class="preview__text">
+          <h2 class="preview__title">From Video to 3D — Instantly</h2>
+          <p class="preview__subtitle">
+            Drop a video. SplatDrop reconstructs it into an interactive 3D model
+            you can rotate, inspect, and export — right in your browser.
+          </p>
+        </div>
+        <div class="preview__viewer">
+          <div class="preview__viewer-placeholder">
+            <span>3D Preview Coming Online</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pipeline">
+      <div class="pipeline__header">
+        <h2 class="pipeline__title">How It Works</h2>
+        <p class="pipeline__subtitle">Three steps from raw footage to a usable 3D asset.</p>
+      </div>
+      <div class="pipeline__steps">
+        <div class="pipeline__step">
+          <span class="pipeline__step-number">01</span>
+          <h3 class="pipeline__step-title">Upload Video</h3>
+          <p class="pipeline__step-text">Record a short walk-around clip of any object or space on your phone.</p>
+        </div>
+        <div class="pipeline__step">
+          <span class="pipeline__step-number">02</span>
+          <h3 class="pipeline__step-title">Reconstruction</h3>
+          <p class="pipeline__step-text">SplatDrop processes the frames and builds a 3D Gaussian splat model automatically.</p>
+        </div>
+        <div class="pipeline__step">
+          <span class="pipeline__step-number">03</span>
+          <h3 class="pipeline__step-title">Export & Use</h3>
+          <p class="pipeline__step-text">Download or embed your 3D model — ready for web, AR, or design tools.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="usecases">
+      <div class="usecases__header">
+        <h2 class="usecases__title">Built for Every Industry</h2>
+        <p class="usecases__subtitle">From e-commerce to real estate — if it exists in the real world, SplatDrop can put it in 3D.</p>
+      </div>
+      <div class="usecases__grid">
+        <a href="#" class="usecases__card">
+          <h3 class="usecases__card-title">E-Commerce</h3>
+          <p class="usecases__card-text">Turn product photos into interactive 3D listings that boost conversion.</p>
+        </a>
+        <a href="#" class="usecases__card">
+          <h3 class="usecases__card-title">Real Estate</h3>
+          <p class="usecases__card-text">Walkthrough scans that let buyers explore a property before visiting.</p>
+        </a>
+        <a href="#" class="usecases__card">
+          <h3 class="usecases__card-title">Gaming & AR</h3>
+          <p class="usecases__card-text">Scan real objects and drop them directly into game engines or AR apps.</p>
+        </a>
+        <a href="#" class="usecases__card">
+          <h3 class="usecases__card-title">Cultural Preservation</h3>
+          <p class="usecases__card-text">Digitize artifacts and landmarks for archives, museums, and research.</p>
+        </a>
+      </div>
+    </section>
 
     <script src="script.js"></script>
-
 </body>
 </html>
-<section class="hero">
-  <div class="hero__bg-glow"></div>
-  <div class="hero__content">
-    <h1 class="hero__title">REAL WORLD. REAL SIMPLE. REAL 3D.</h1>
-    <p class="hero__subtitle">
-      SplatDrop turns ordinary video into production-ready 3D models —
-      no scanners, no CAD, no manual reconstruction. Upload a video, get a 3D asset.
-    </p>
-    <a href="#upload" class="hero__cta">Start Scanning</a>
-  </div>
-</section>
-<section class="preview">
-  <div class="preview__container">
-    <div class="preview__text">
-      <h2 class="preview__title">From Video to 3D — Instantly</h2>
-      <p class="preview__subtitle">
-        Drop a video. SplatDrop reconstructs it into an interactive 3D model
-        you can rotate, inspect, and export — right in your browser.
-      </p>
-    </div>
-
-    <div class="preview__viewer">
-      <div class="preview__viewer-placeholder">
-        <span>3D Preview Coming Online</span>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="pipeline">
-  <div class="pipeline__header">
-    <h2 class="pipeline__title">How It Works</h2>
-    <p class="pipeline__subtitle">Three steps from raw footage to a usable 3D asset.</p>
-  </div>
-
-  <div class="pipeline__steps">
-    <div class="pipeline__step">
-      <span class="pipeline__step-number">01</span>
-      <h3 class="pipeline__step-title">Upload Video</h3>
-      <p class="pipeline__step-text">Record a short walk-around clip of any object or space on your phone.</p>
-    </div>
-
-    <div class="pipeline__step">
-      <span class="pipeline__step-number">02</span>
-      <h3 class="pipeline__step-title">Reconstruction</h3>
-      <p class="pipeline__step-text">SplatDrop processes the frames and builds a 3D Gaussian splat model automatically.</p>
-    </div>
-
-    <div class="pipeline__step">
-      <span class="pipeline__step-number">03</span>
-      <h3 class="pipeline__step-title">Export & Use</h3>
-      <p class="pipeline__step-text">Download or embed your 3D model — ready for web, AR, or design tools.</p>
-    </div>
-  </div>
-</section>
-<section class="usecases">
-  <div class="usecases__header">
-    <h2 class="usecases__title">Built for Every Industry</h2>
-    <p class="usecases__subtitle">From e-commerce to real estate — if it exists in the real world, SplatDrop can put it in 3D.</p>
-  </div>
-
-  <div class="usecases__grid">
-    <div class="usecases__card">
-      <h3 class="usecases__card-title">E-Commerce</h3>
-      <p class="usecases__card-text">Turn product photos into interactive 3D listings that boost conversion.</p>
-    </div>
-
-    <div class="usecases__card">
-      <h3 class="usecases__card-title">Real Estate</h3>
-      <p class="usecases__card-text">Walkthrough scans that let buyers explore a property before visiting.</p>
-    </div>
-
-    <div class="usecases__card">
-      <h3 class="usecases__card-title">Gaming & AR</h3>
-      <p class="usecases__card-text">Scan real objects and drop them directly into game engines or AR apps.</p>
-    </div>
-
-    <div class="usecases__card">
-      <h3 class="usecases__card-title">Cultural Preservation</h3>
-      <p class="usecases__card-text">Digitize artifacts and landmarks for archives, museums, and research.</p>
-    </div>
-  </div>
-</section>
