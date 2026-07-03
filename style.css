@@ -402,3 +402,14 @@ h1 {
   border-radius: 20px;
   display: block;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo__icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
