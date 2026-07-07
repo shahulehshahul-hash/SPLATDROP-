@@ -2,7 +2,7 @@
 body {
     background-color: var(--bg-primary);
     color: var(--text-primary);
-    font-family: 'Manrope' Arial, sans-serif;
+    font-family: 'Manrope', Arial, sans-serif;
 }
 .navbar{
     display:flex;
