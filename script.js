@@ -24,7 +24,7 @@ if (!prefersReducedMotion && revealElements.length > 0) {
   revealElements.forEach((el) => el.classList.add('is-visible'));
 }
 const previewVideo = document.querySelector('.preview__viewer-video');
-if (previewVideo && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+if (previewVideo && prefersReducedMotion) {
   previewVideo.pause();
   previewVideo.removeAttribute('autoplay');
 }
