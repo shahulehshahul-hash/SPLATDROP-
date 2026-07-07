@@ -1,4 +1,4 @@
-console.log("Welcome to SPLATDROP!");
+
 const revealElements = document.querySelectorAll('.reveal');
 
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
