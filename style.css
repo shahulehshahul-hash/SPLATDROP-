@@ -60,17 +60,17 @@ h1 {
 }
 @keyframes glow-pulse {
   0%, 100% {
-    opacity: 0.7;
+    opacity: 0.6;
     transform: translate(-50%, -50%) scale(1);
   }
   50% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.08);
+    transform: translate(-50%, -50%) scale(1.15);
   }
 }
 
 .hero__bg-glow {
-  animation: glow-pulse 7s ease-in-out infinite;
+  animation: glow-pulse 5s ease-in-out infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
